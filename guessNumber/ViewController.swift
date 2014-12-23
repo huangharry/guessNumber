@@ -132,9 +132,7 @@ class ViewController: UIViewController {
             numB.text = "\(countB)"
             self.reset()
             println(tempArr)
-            /*for c in tempStr {
-                println(c)
-            }*/
+
         }//this is count == 4 block end
         println("this is count: \(count)")
     }//this is func detect block end
@@ -154,7 +152,7 @@ class ViewController: UIViewController {
         for i in 0..<4 {
             result[i] = randomNum[i]
         }
-        //answerNumber.text = "\(result)"
+        answerNumber.text = "\(result)"
     }
     
     func reset() {
